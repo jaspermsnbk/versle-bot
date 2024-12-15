@@ -1,0 +1,16 @@
+{
+  "name": "versle-bot",
+  "version": "1.0.0",
+  "main": "app.py",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run build && flask --app app run",
+    "build": "python3 -m venv .venv && bash -c 'source .venv/bin/activate' && python3 -m pip install -r requirements.txt"
+  },
+  "author": "jasper mesenbrink",
+  "license": "ISC",
+  "description": "",
+  "repository": {
+    "url": "git@github.com:jaspermsnbk/versle-bot.git"
+  }
+}
